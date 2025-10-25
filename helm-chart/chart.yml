@@ -1,0 +1,6 @@
+apiVersion: v2
+name: helm-kubernetes-jenkins
+description: A Flask demo app deployed on Kubernetes using Helm with Jenkins pipeline.
+type: application
+version: 0.1.0
+appVersion: "1.0"

@@ -1,0 +1,12 @@
+replicaCount: 2
+
+image:
+  repository: b0ngk3ng/helm-kubernetes-jenkins
+  tag: latest
+  pullPolicy: IfNotPresent
+  
+service:
+  type: NodePort
+  port: 5000
+  targetPort: 5000
+  nodePort: 30080
